@@ -1,0 +1,23 @@
+<html>
+<head>
+<script>
+function printDiv(divName) {
+    var printContents = document.getElementById(divName).innerHTML;
+    var originalContents = document.body.innerHTML;
+
+    document.body.innerHTML = printContents;
+
+    window.print();
+
+    document.body.innerHTML = originalContents;
+}
+</script>
+</head>
+<body>
+    <h1>My Button to print</h1>
+    <div id="rr">HELLO Roshan</div>
+    <button onclick="printDiv('rr')">Print Button
+    </button>
+    <p><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3915.179241203471!2d77.0243736143389!3d11.100015456173667!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba8ee31c6cfabaf%3A0xdd51d00830a0e45!2sSNS+College+of+Technology!5e0!3m2!1sen!2sin!4v1549364059385" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe></p>
+</body>
+</html>

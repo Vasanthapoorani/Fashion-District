@@ -1,0 +1,12 @@
+#bd{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center; 
+    opacity: 1;
+  filter: alpha(opacity=100);
+}
+h1{
+    font-size:20px;
+    color:rgb(28, 231, 21);
+}
